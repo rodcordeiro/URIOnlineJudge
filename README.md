@@ -1,4 +1,4 @@
-# ![Logo uri](logoUri.png) URI_Online_Judge Docs ![my logo](myLogo.png)
+# ![Logo uri](assets/logoUri.png) URI_Online_Judge Docs ![my logo](assets/myLogo.png)
 
  On this repository I'll host all my solutions to URI Online Judge. I'll be solving the problems on JavaScript and Python.
 
