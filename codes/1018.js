@@ -1,5 +1,5 @@
 function teste(){
-  let values = [576,11257,503,500,20,73]
+  let values = [576,11257,503,75.3]
   values.forEach(value => {
     cedulas(value)
   })
@@ -8,7 +8,7 @@ function teste(){
 function cedulas(value){
   console.log(value);
   let cedulas = [100,50,20,10,5,2,1]
-  let resto = value
+  let resto = parseInt(value)
   cedulas.forEach(cedula =>{
     let numCelulas = parseInt(resto / cedula)
     resto = resto % cedula
